@@ -34,15 +34,15 @@ ContactBook/
 
 
 # How to Run the Script
-1.Make sure Python 3 is installed on your system.
+1. Make sure Python 3 is installed on your system.
 
-2.Clone this repository:
+2. Clone this repository:
 git clone https://github.com/your-username/contact-book.git
 
-3.Navigate to the project folder:
+3. Navigate to the project folder:
 cd contact-book
 
-4.Run the application:
+4. Run the application:
 python contact_book.py
 
 
