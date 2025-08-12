@@ -1,36 +1,50 @@
-# Contact Book (Python)
+# Contact Book 
 
-A simple Python-based **Contact Book** application to store, search, update, and delete contact details using a user-friendly command-line interface.  
-This project is designed to demonstrate **file handling, data structures, and CRUD operations** in Python.
+A simple Python-based Contact Book application that allows you to store, search, update, and delete contact information.
+This project was developed as part of my academic work to practice Python programming concepts.
 
----
 
-##  Project Overview
-The **Contact Book** allows users to manage contacts efficiently. It provides features like adding, viewing, searching, updating, and deleting contact information, with all data stored in a file for persistence.  
+# Features
+Add new contacts with name, phone number, and email
 
-It’s a beginner-friendly project perfect for learning **Python basics, file I/O, and data management**.
+View all saved contacts
 
----
+Search for a contact by name
 
-##  Features
-- ➕ **Add Contact** – Save a new contact with name, phone number, and email.  
-- 📜 **View All Contacts** – Display all saved contacts in a list format.  
-- 🔍 **Search Contact** – Find contacts by name or phone number.  
-- ✏️ **Update Contact** – Modify existing contact details.  
-- ❌ **Delete Contact** – Remove a contact from the list.  
-- 💾 **Persistent Storage** – Stores data in a file (CSV/JSON/TXT).
+Update existing contact information
 
----
+Delete contacts
 
-##  Technologies Used
-- **Language:** Python  
-- **IDE:** PyCharm  
-- **Modules:** OS, CSV (or JSON, depending on implementation)
+Simple and easy-to-use command-line interface
 
----
 
-##  How to Run
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/Contact-Book-Python.git
-   cd Contact-Book-Python
+# Technologies Used
+Python (Core language)
+PyCharm (IDE for development)
+
+
+# Project Structure
+bash
+Copy
+Edit
+ContactBook/
+│-- contact_book.py   # Main script to run the application
+│-- README.md         # Project documentation
+│-- LICENSE           # License file
+
+
+# How to Run the Script
+1.Make sure Python 3 is installed on your system.
+
+2.Clone this repository:
+git clone https://github.com/your-username/contact-book.git
+
+3.Navigate to the project folder:
+cd contact-book
+
+4.Run the application:
+python contact_book.py
+
+
+# License
+This project is licensed under the MIT License – see the LICENSE file for details.
